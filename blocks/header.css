@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 0;
 }
 
 .header__title {
@@ -25,8 +26,7 @@
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
+  font-weight: normal;
   color: #3f96f3;
   display: block;
 }
@@ -45,6 +45,7 @@
   max-width: 646px;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
